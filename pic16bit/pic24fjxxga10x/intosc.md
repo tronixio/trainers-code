@@ -65,7 +65,7 @@ int main(void)
     // DOZE2.0 = 0 1 0 - 1:4.
     // DOZE2.0 = 0 0 1 - 1:2.
     // DOZE2.0 = 0 0 0 - 1:1.
-    CLKDIVbits.DOZE = 0B100;
+    CLKDIVbits.DOZE = 0b000;
     // DOZE - Clock Ratio Enable.
     // DOZEN.0 = 1 - DOZE Enable.
     // DOZEN.0 = 0 - DOZE Disable.
@@ -139,7 +139,7 @@ int main(void)
     // DOZE2.0 = 0 1 0 - 1:4.
     // DOZE2.0 = 0 0 1 - 1:2.
     // DOZE2.0 = 0 0 0 - 1:1.
-    CLKDIVbits.DOZE = 0B100;
+    CLKDIVbits.DOZE = 0b000;
     // DOZE - Clock Ratio Enable.
     // DOZEN.0 = 1 - DOZE Enable.
     // DOZEN.0 = 0 - DOZE Disable.
@@ -150,7 +150,7 @@ int main(void)
     // OSCTUNE5.0 = 0 0 0 0 0 0 - Factory Calibrated Frequency.
     // ...
     // OSCTUNE5.0 = 1 0 0 0 0 0 - Minimum Frequency.
-    OSCTUNbits.TUN = 0B100000;
+    OSCTUNbits.TUN = 0b000000;
 
     while(1){
     }
@@ -228,7 +228,7 @@ int main(void)
     // DOZE2.0 = 0 1 0 - 1:4.
     // DOZE2.0 = 0 0 1 - 1:2.
     // DOZE2.0 = 0 0 0 - 1:1.
-    CLKDIVbits.DOZE = 0B100;
+    CLKDIVbits.DOZE = 0b000;
     // DOZE - Clock Ratio Enable.
     // DOZEN.0 = 1 - DOZE Enable.
     // DOZEN.0 = 0 - DOZE Disable.
@@ -242,14 +242,14 @@ int main(void)
     // 010 = 2MHz.
     // 001 = 4MHz.
     // 000 = 8MHz.
-    CLKDIVbits.RCDIV = 0B100;
+    CLKDIVbits.RCDIV = 0b000;
     // OSCTUNE - Oscillator Tuning.
     // OSCTUNE5.0 = 0 1 1 1 1 1 - Maximum Frequency.
     // ...
     // OSCTUNE5.0 = 0 0 0 0 0 0 - Factory Calibrated Frequency.
     // ...
     // OSCTUNE5.0 = 1 0 0 0 0 0 - Minimum Frequency.
-    OSCTUNbits.TUN = 0B100000;
+    OSCTUNbits.TUN = 0b000000;
 
     while(1){
     }
@@ -347,7 +347,7 @@ int main(void)
     // DOZE2.0 = 0 1 0 - 1:4.
     // DOZE2.0 = 0 0 1 - 1:2.
     // DOZE2.0 = 0 0 0 - 1:1.
-    CLKDIVbits.DOZE = 0B100;
+    CLKDIVbits.DOZE = 0b000;
     // DOZE - Clock Ratio Enable.
     // DOZEN.0 = 1 - DOZE Enable.
     // DOZEN.0 = 0 - DOZE Disable.
@@ -355,14 +355,14 @@ int main(void)
     // FRCDIV Postscaler.
     // 001 = 4MHz.
     // 000 = 8MHz.
-    CLKDIVbits.RCDIV = 0B100;
+    CLKDIVbits.RCDIV = 0b000;
     // OSCTUNE - Oscillator Tuning.
     // OSCTUNE5.0 = 0 1 1 1 1 1 - Maximum Frequency.
     // ...
     // OSCTUNE5.0 = 0 0 0 0 0 0 - Factory Calibrated Frequency.
     // ...
     // OSCTUNE5.0 = 1 0 0 0 0 0 - Minimum Frequency.
-    OSCTUNbits.TUN = 0B100000;
+    OSCTUNbits.TUN = 0b000000;
 
     while(1){
     }
