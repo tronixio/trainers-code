@@ -11,10 +11,11 @@
 
 ```c
 // Configuration Registers.
-#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON, OSCIOFNC = OFF
-#pragma config FCKSM = CSDCMD, FNOSC = LPRC, SOSCSEL = SOSC, WUTSEL = LEG
-#pragma config IESO = OFF, WDTPS = PS32768, FWPSA = PR128, WINDIS = OFF
-#pragma config FWDTEN = OFF, ICS = PGx1, GWRP = OFF, GCP = OFF, JTAGEN = OFF
+#pragma config WDTPS = PS32768, FWPSA = PR128, WINDIS = OFF, FWDTEN = OFF
+#pragma config ICS = PGx1, GWRP = OFF, GCP = OFF, JTAGEN = OFF
+#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
+#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = LPRC
+#pragma config SOSCSEL = SOSC, WUTSEL = LEG, IESO = OFF
 
 #include <xc.h>
 // PIC24FJxxGA002/4 - Compile with XC16(v2.00).
@@ -81,10 +82,11 @@ int main(void)
 
 ```c
 // Configuration Registers.
-#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON, OSCIOFNC = OFF
-#pragma config FCKSM = CSDCMD, FNOSC = FRC, SOSCSEL = SOSC, WUTSEL = LEG
-#pragma config IESO = OFF, WDTPS = PS32768, FWPSA = PR128, WINDIS = OFF
-#pragma config FWDTEN = OFF, ICS = PGx1, GWRP = OFF, GCP = OFF, JTAGEN = OFF
+#pragma config WDTPS = PS32768, FWPSA = PR128, WINDIS = OFF, FWDTEN = OFF
+#pragma config ICS = PGx1, GWRP = OFF, GCP = OFF, JTAGEN = OFF
+#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
+#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = FRC
+#pragma config SOSCSEL = SOSC, WUTSEL = LEG, IESO = OFF
 
 #include <xc.h>
 // PIC24FJxxGA002/4 - Compile with XC16(v2.00).

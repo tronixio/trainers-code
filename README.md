@@ -1,4 +1,4 @@
-# PIC 8-Bit Trainers Code.
+# PIC Trainers Code.
 
 ## PIC-AS PIC16F.
 
