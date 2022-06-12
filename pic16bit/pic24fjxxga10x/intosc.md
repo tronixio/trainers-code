@@ -158,15 +158,15 @@ int main(void)
 }
 ```
 
-- FOSC=8MHz, DOZE=000, DOZEN=0, OSCTUN=100000.
+- FOSC=8MHz, DOZE=000, DOZEN=0, OSCTUNE=100000.
 
 <p align="center"><img alt="FRC" src="../pics/frc-0.png"></p>
 
-- FOSC=8MHz, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=8MHz, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRC" src="../pics/frc-1.png"></p>
 
-- FOSC=8MHz, DOZE=000, DOZEN=0, OSCTUN=011111.
+- FOSC=8MHz, DOZE=000, DOZEN=0, OSCTUNE=011111.
 
 <p align="center"><img alt="FRC" src="../pics/frc-2.png"></p>
 
@@ -257,35 +257,35 @@ int main(void)
 }
 ```
 
-- FOSC=8MHz, RCDIV=000, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=8MHz, RCDIV=000, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCDIV" src="../pics/frcdiv-0.png"></p>
 
-- FOSC=4MHz, RCDIV=001, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=4MHz, RCDIV=001, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCDIV" src="../pics/frcdiv-1.png"></p>
 
-- FOSC=2MHz, RCDIV=010, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=2MHz, RCDIV=010, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCDIV" src="../pics/frcdiv-2.png"></p>
 
-- FOSC=1MHz, RCDIV=011, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=1MHz, RCDIV=011, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCDIV" src="../pics/frcdiv-3.png"></p>
 
-- FOSC=500kHz, RCDIV=100, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=500kHz, RCDIV=100, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCDIV" src="../pics/frcdiv-4.png"></p>
 
-- FOSC=250kHz, RCDIV=101, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=250kHz, RCDIV=101, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCDIV" src="../pics/frcdiv-5.png"></p>
 
-- FOSC=125kHz, RCDIV=110, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=125kHz, RCDIV=110, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCDIV" src="../pics/frcdiv-6.png"></p>
 
-- FOSC=31.25kHz, RCDIV=111, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=31.25kHz, RCDIV=111, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCDIV" src="../pics/frcdiv-7.png"></p>
 
@@ -370,11 +370,11 @@ int main(void)
 }
 ```
 
-- FOSC=32MHz, RCDIV=000, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=32MHz, RCDIV=000, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCPLL" src="../pics/frcpll-0.png"></p>
 
-- FOSC=16MHz, RCDIV=001, DOZE=000, DOZEN=0, OSCTUN=000000.
+- FOSC=16MHz, RCDIV=001, DOZE=000, DOZEN=0, OSCTUNE=000000.
 
 <p align="center"><img alt="FRCPLL" src="../pics/frcpll-1.png"></p>
 
