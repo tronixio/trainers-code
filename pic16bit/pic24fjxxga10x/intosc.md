@@ -11,14 +11,14 @@
 
 ```c
 // Configuration Registers.
-#pragma config DSWDTPS = DSWDTPSF, DSWDTOSC = LPRC
-#pragma config RTCOSC = SOSC, DSBOREN = ON, DSWDTEN = ON
-#pragma config WPFP = WPFP63, SOSCSEL = IO, WUTSEL = LEG
-#pragma config WPDIS = WPDIS, WPCFG = WPCFGDIS, WPEND = WPENDMEM
-#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
-#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = LPRC, IESO = OFF
 #pragma config WDTPS = PS32768, FWPSA = PR128, WINDIS = OFF
 #pragma config FWDTEN = OFF, ICS = PGx1, GWRP = OFF, GCP = OFF, JTAGEN = OFF
+#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
+#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = LPRC, IESO = OFF
+#pragma config WPFP = WPFP63, SOSCSEL = IO, WUTSEL = LEG
+#pragma config WPDIS = WPDIS, WPCFG = WPCFGDIS, WPEND = WPENDMEM
+#pragma config DSWDTPS = DSWDTPSF, DSWDTOSC = LPRC
+#pragma config RTCOSC = SOSC, DSBOREN = OFF, DSWDTEN = OFF
 
 #include <xc.h>
 // PIC24FJxxGA102/4 - Compile with XC16(v2.00).
@@ -85,14 +85,14 @@ int main(void)
 
 ```c
 // Configuration Registers.
-#pragma config DSWDTPS = DSWDTPSF, DSWDTOSC = LPRC
-#pragma config RTCOSC = SOSC, DSBOREN = ON, DSWDTEN = ON
-#pragma config WPFP = WPFP63, SOSCSEL = IO, WUTSEL = LEG
-#pragma config WPDIS = WPDIS, WPCFG = WPCFGDIS, WPEND = WPENDMEM
-#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
-#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = FRC, IESO = OFF
 #pragma config WDTPS = PS32768, FWPSA = PR128, WINDIS = OFF
 #pragma config FWDTEN = OFF, ICS = PGx1, GWRP = OFF, GCP = OFF, JTAGEN = OFF
+#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
+#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = FRC, IESO = OFF
+#pragma config WPFP = WPFP63, SOSCSEL = IO, WUTSEL = LEG
+#pragma config WPDIS = WPDIS, WPCFG = WPCFGDIS, WPEND = WPENDMEM
+#pragma config DSWDTPS = DSWDTPSF, DSWDTOSC = LPRC
+#pragma config RTCOSC = SOSC, DSBOREN = OFF, DSWDTEN = OFF
 
 #include <xc.h>
 // PIC24FJxxGA102/4 - Compile with XC16(v2.00).
@@ -174,14 +174,14 @@ int main(void)
 
 ```c
 // Configuration Registers.
-#pragma config DSWDTPS = DSWDTPSF, DSWDTOSC = LPRC
-#pragma config RTCOSC = SOSC, DSBOREN = ON, DSWDTEN = ON
-#pragma config WPFP = WPFP63, SOSCSEL = IO, WUTSEL = LEG
-#pragma config WPDIS = WPDIS, WPCFG = WPCFGDIS, WPEND = WPENDMEM
-#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
-#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = FRCDIV, IESO = OFF
 #pragma config WDTPS = PS32768, FWPSA = PR128, WINDIS = OFF
 #pragma config FWDTEN = OFF, ICS = PGx1, GWRP = OFF, GCP = OFF, JTAGEN = OFF
+#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
+#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = FRCDIV, IESO = OFF
+#pragma config WPFP = WPFP63, SOSCSEL = IO, WUTSEL = LEG
+#pragma config WPDIS = WPDIS, WPCFG = WPCFGDIS, WPEND = WPENDMEM
+#pragma config DSWDTPS = DSWDTPSF, DSWDTOSC = LPRC
+#pragma config RTCOSC = SOSC, DSBOREN = OFF, DSWDTEN = OFF
 
 #include <xc.h>
 // PIC24FJxxGA102/4 - Compile with XC16(v2.00).
@@ -293,14 +293,14 @@ int main(void)
 
 ```c
 // Configuration Registers.
-#pragma config DSWDTPS = DSWDTPSF, DSWDTOSC = LPRC
-#pragma config RTCOSC = SOSC, DSBOREN = ON, DSWDTEN = ON
-#pragma config WPFP = WPFP63, SOSCSEL = IO, WUTSEL = LEG
-#pragma config WPDIS = WPDIS, WPCFG = WPCFGDIS, WPEND = WPENDMEM
-#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
-#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = FRCPLL, IESO = OFF
 #pragma config WDTPS = PS32768, FWPSA = PR128, WINDIS = OFF
 #pragma config FWDTEN = OFF, ICS = PGx1, GWRP = OFF, GCP = OFF, JTAGEN = OFF
+#pragma config POSCMOD = NONE, I2C1SEL = PRI, IOL1WAY = ON
+#pragma config OSCIOFNC = OFF, FCKSM = CSDCMD, FNOSC = FRCPLL, IESO = OFF
+#pragma config WPFP = WPFP63, SOSCSEL = IO, WUTSEL = LEG
+#pragma config WPDIS = WPDIS, WPCFG = WPCFGDIS, WPEND = WPENDMEM
+#pragma config DSWDTPS = DSWDTPSF, DSWDTOSC = LPRC
+#pragma config RTCOSC = SOSC, DSBOREN = OFF, DSWDTEN = OFF
 
 #include <xc.h>
 // PIC24FJxxGA102/4 - Compile with XC16(v2.00).
