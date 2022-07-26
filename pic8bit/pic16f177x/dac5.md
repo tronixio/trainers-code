@@ -108,10 +108,10 @@ void main(void)
     // DACxR - Reference Voltage Output.
     // DAC Vout = VDD / 32.
     // DAC3R4.0 = 1 1 1 1 1 - 3V18.
-    // DAC3R4.0 =  - 3V08.
+    // DAC3R4.0 = 1 1 1 1 0 - 3V08.
     // DAC3R4.0 = ...
-    // DAC3R4.0 =  - 0V10.
-    // DAC3R4.0 =  - 0V.
+    // DAC3R4.0 =  0 0 0 0 1 - 0V10.
+    // DAC3R4.0 =  0 0 0 0 0 - 0V.
     DAC3REFbits.DAC3R = 0b00000;
     // DAC3/4/7 Enable.
     DAC3CON0bits.EN = 0b1;
@@ -240,10 +240,10 @@ void main(void)
     // DACxR - Reference Voltage Output.
     // DAC Vout = VDD / 32.
     // DAC3R4.0 = 1 1 1 1 1 - 3V18.
-    // DAC3R4.0 =  - 3V08.
+    // DAC3R4.0 = 1 1 1 1 0 - 3V08.
     // DAC3R4.0 = ...
-    // DAC3R4.0 =  - 0V10.
-    // DAC3R4.0 =  - 0V.
+    // DAC3R4.0 = 0 0 0 0 1 - 0V10.
+    // DAC3R4.0 = 0 0 0 0 0 - 0V.
     DAC3REFbits.DAC3R = 0b00000;
     // DAC3/4/7 Enable.
     DAC3CON0bits.EN = 0b1;
