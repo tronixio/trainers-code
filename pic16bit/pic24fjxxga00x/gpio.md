@@ -70,11 +70,11 @@ int main(void)
 
 - Port A.
 
-<p align="center"><img alt="GPIO A" src="../pics/pic24fjxxga002-gpio-a.png"></p>
+<p align="center"><img alt="GPIO A" src="../pics/pic24fjxxga-gpio-a.png"></p>
 
 - Port B.
 
-<p align="center"><img alt="GPIO B" src="../pics/pic24fjxxga002-gpio-b.png"></p>
+<p align="center"><img alt="GPIO B" src="../pics/pic24fjxxga-gpio-b.png"></p>
 
 ## 2.PIC24FJxxGA004 - GPIO.
 
