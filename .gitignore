@@ -1,2 +1,13 @@
-
 .DS_Store
+Docs/
+
+# Kicad.
+Kicad/*/*.kicad_prl
+Kicad/*/*.kicad_sch-bak
+Kicad/*/gerber/
+Kicad/*/main-backups/
+Kicad/*/fp-info-cache
+
+# MplabX.
+MplabX/*/dist/
+MplabX/*/build/
